@@ -1,3 +1,12 @@
+<?php
+
+
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -39,7 +48,7 @@
 <body>
     <nav class="menu">
         <ul>
-            <li class="nav-item"> 
+            <li class="nav-item">
                 <a href="#acceuil" title="Acceuil" class="nav-link"><img src="./img/accueil.png" alt=""
                         class="icon-menu entouree"></a>
             </li>
@@ -227,14 +236,14 @@
             <div class="container">
                 <div class="send-mail">
                     <h1>Envoyez-moi un mail</h1>
-                    <form action="acceuil.html" method="post">
+                    <form action="acceuil.php" method="post">
                         <div class="group-nom">
                             <input type="text" placeholder="Nom" name="nom">
                             <input type="text" name="prenom" placeholder="Prénom">
                         </div>
                         <input type="email" name="email" placeholder="E-Mail">
                         <textarea style="width: 100%;" name="msg"cols="30" rows="10" placeholder="Message"></textarea>
-                        <input type="submit" value="Envoyer">
+                        <input type="submit" value="Envoyer" name="sendForm">
                     </form>
                 </div>
                 <div class="contact-info">
